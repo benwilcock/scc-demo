@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 import org.mockito.runners.MockitoJUnitRunner;
 
 @RunWith(MockitoJUnitRunner.class)
-public abstract class HelloServiceBase {
+public abstract class MvcBase {
 
     @Before
     public void setup() {

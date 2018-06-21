@@ -65,7 +65,8 @@
                 <version>${spring-cloud-contract.version}</version>
                 <extensions>true</extensions>
                 <configuration>
-                    <packageWithBaseClasses>com.example</packageWithBaseClasses>
+                    <!--<packageWithBaseClasses>com.example</packageWithBaseClasses>-->
+					<baseClassForTests>com.example.MvcBase</baseClassForTests>
                 </configuration>
             </plugin>
 		</plugins>
